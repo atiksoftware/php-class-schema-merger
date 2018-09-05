@@ -1,0 +1,20 @@
+{
+    "name": "atiksoftware/php-class-schema-merger",
+    "description": "PHP array migrate,replace or fix with schema and with default data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atiksoftware Corporation",
+            "email": "atiksoftware@gmail.com"
+        }
+    ],
+    "require": {
+		"atiksoftware/php-class-cover" : "~1.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Atiksoftware\\Schema\\" : "src"
+		}
+	}
+}
